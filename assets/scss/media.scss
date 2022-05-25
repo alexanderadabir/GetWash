@@ -1,0 +1,317 @@
+@media (max-width: 1140px) {
+  .intro {
+    &::after {
+      right: -120px;
+    }
+
+    &::before {
+      right: 45px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .intro {
+    &::after {
+      width: 780px;
+      height: 744px;
+      right: -120px;
+    }
+
+    &::before {
+      right: 45px;
+      width: 440px;
+    }
+  }
+
+  .fast-start {
+    &__left {
+      &::before {
+        width: 565px;
+      }
+    }
+  }
+
+  .reference {
+    &__inner {
+      &::after {
+        right: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    &__inner {
+      margin-bottom: 70px;
+      flex-direction: column;
+    }
+  }
+
+  .intro {
+    &::after {
+      display: none;
+    }
+
+    &::before {
+      right: -10px;
+      width: 440px;
+    }
+
+    &__inner {
+      position: relative;
+      z-index: 5;
+      text-align: center;
+      max-width: none;
+    }
+
+    &__arrow-right {
+      display: none;
+    }
+  }
+
+  .fast-start {
+
+    &__left {
+      display: none;
+      }
+    &__right {
+      margin: 0 auto;
+    }
+  }
+
+  .reference {
+    &__inner {
+      &::after {
+        display: none;
+    }
+  }
+
+  &__left {
+    text-align: center;
+    padding-left: 20px;
+  }
+  &__accent-text {
+    max-width: 100%;
+  }
+  &__text {
+    max-width: 100%;
+  }
+  &__group-links {
+    max-width: 100%;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+  .footer {
+
+    &__inner {
+      padding: 40px 0;
+      flex-direction: column;
+    }
+  }
+}
+
+
+@media (max-width: 425px) {
+  .main-nav {
+    &__list {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &__item {
+      font-size: 14px;
+      &:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .header {
+    &__main-nav {
+      display: none;
+    }
+
+    &__btn {
+      display: none;
+    }
+  }
+
+  .accent-text {
+    font-size: 21px;
+
+    &--small {
+      font-size: 21px;
+    }
+  }
+
+  .intro {
+    &::before {
+      display: none;
+    }
+
+    &__inner {
+      margin-bottom: 50px;
+    }
+
+    &__accent-text {
+      font-weight: 400;
+      font-size: 21px;
+      line-height: 125%;
+      margin-bottom: 52px;
+    }
+
+    &__text {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 140%;
+    }
+  }
+
+  .fast-start {
+    &__item {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &__inner {
+      margin-bottom: 30px;
+    }
+
+    &__accent-text {
+      font-size: 21px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    &__group-icon {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+
+    &__text {
+      font-size: 14px;
+      &--bold {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+    }
+
+    &__item {
+      &:not(:last-child) {
+        margin-bottom: 30px;
+      }
+    }
+
+    &__group-text {
+      text-align: center;
+    }
+  }
+
+  .reviews {
+    margin-bottom: 100px;
+    &__accent-text {
+      text-align: center;
+    }
+
+    &__inner {
+      flex-direction: column;
+    }
+    &__user {
+      flex-direction: column;
+    }
+
+    &__text {
+      font-size: 14px;
+      line-height: 140%;
+      text-align: center;
+    }
+
+    &__right {
+      top: 30px;
+      margin: 0 auto;
+    }
+  }
+
+  .user {
+    &__img {
+      margin-right: 0;
+      margin-bottom: 16px;
+    }
+
+    &__info {
+      text-align: center;
+    }
+  }
+
+  .footer {
+
+    &__logo {
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+
+    &__main-nav {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    &__btn {
+      margin-bottom: 20px;
+    }
+
+  }
+
+  .partners {
+    &__text {
+      max-width: 290px;
+      font-size: 14px;
+      line-height: 140%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    &__btn {
+      margin-bottom: 50px;
+    }
+
+    &__list {
+      margin: 0;
+      margin-bottom: 30px;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    &__item {
+      width: 100%;
+    }
+  }
+
+  .reference {
+    background-color: #446DF6;
+    margin-bottom: 50px;
+
+    &__inner {
+      border-radius: 0;
+    }
+
+    &__left {
+      padding: 0;
+    }
+
+    &__text {
+      margin-bottom: 20px;
+    }
+
+    &__group-links {
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+}
